@@ -8,10 +8,11 @@ export default [
 	'preference',
 	'feature',
 	'icon',
-	'splash', 
+	'splash',
 	'platform',
 	'engine',
 	'plugin',
 	'hook',
-	'configFile'
+	'configFile',
+  'editConfig'
 ].map((config) => require('./configs/'+config));
